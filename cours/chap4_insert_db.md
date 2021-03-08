@@ -201,7 +201,7 @@ Truncate est similaire à DELETE. La commande TRUNCATE pour sa part ré-initiali
 
 ```sql
 
-TRUNCATE FROM pilots ;
+TRUNCATE TABLE pilots ;
 
 ```
 
