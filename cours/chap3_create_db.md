@@ -199,7 +199,7 @@ CREATE TABLE `pilots` (
     `numFlying` DECIMAL(7,1),
     `compagny` CHAR(4),
     `name` VARCHAR(20) NOT NULL,
-    CONSTRAINT pk_pilots PRIMARY KEY (`certificate`),
+    CONSTRAINT pk_pilots PRIMARY KEY (`certificate`)
 ) ENGINE=InnoDB ;
 ```
 
