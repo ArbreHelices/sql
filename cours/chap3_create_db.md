@@ -142,7 +142,7 @@ CREATE TABLE `compagnies` (
     `street` VARCHAR(20),
     `city` VARCHAR(20) NULL,
     `name` VARCHAR(20) NOT NULL,
-    CONSTRAINT pk_compagny PRIMARY KEY (`comp`),
+    CONSTRAINT pk_compagny PRIMARY KEY (`comp`)
     ) ENGINE=InnoDB ;
 ```
 
