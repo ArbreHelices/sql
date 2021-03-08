@@ -39,6 +39,3 @@ ALTER TABLE pilots ADD CONSTRAINT fk_pilots_compagny FOREIGN KEY (compagny) REFE
 
 ALTER TABLE pilots
 ADD CONSTRAINT un_name UNIQUE (name);
-
-ALTER TABLE Persons
-DROP INDEX UC_Person;
