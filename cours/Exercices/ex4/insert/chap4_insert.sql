@@ -23,3 +23,4 @@ VALUES
     ('ct-16', 190, 'SIN', 'Yan' ),
     ('ct-56', 300, 'AUS', 'Benoit' )
 ;
+
