@@ -40,5 +40,11 @@ ALTER TABLE pilots ADD CONSTRAINT fk_pilots_compagny FOREIGN KEY (compagny) REFE
 ALTER TABLE pilots
 ADD CONSTRAINT un_name UNIQUE (name);
 
-ALTER TABLE Persons
-DROP INDEX UC_Person;
+
+-- supprimer la contrainte nommée de la clé étrangère et la clé étrangère elle-même
+
+ALTER TABLE pilots DROP FOREIGN KEY fk_pilots_compagny;
+ALTER TABLE pilots DROP KEY fk_pilots_compagny;
+
+-- création de la clé étrangère sans la nommée => MySQL crée un nom de contrainte par défaut
+-- ALTER TABLE pilots ADD FOREIGN KEY (compagny) REFERENCES compagnies(`comp`);
