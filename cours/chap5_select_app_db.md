@@ -33,6 +33,16 @@ Trouvez toute(s) les/la compagnie(s) n'ayant pas de pilotes.
 
 Cette commande s’utilise dans une clause conditionnelle entre l’opérateur de condition et la sous-requête. L’exemple ci-dessous montre un exemple basique :
 
+```sql
+SELECT *
+FROM table1
+WHERE condition > ALL (
+    SELECT *
+    FROM table2
+    WHERE condition2
+)
+```
+
 Cette clause s'utilise dans une sous-requête de manière identique à la clause IN. Elle permet de comparer une valeur dans l'ensemble de valeurs d'une sous-requête.
 
 ## Exercice nombre inférieur d'heure de vols
