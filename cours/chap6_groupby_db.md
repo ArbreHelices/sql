@@ -4,6 +4,7 @@
 
 Elles s'utilisent dans la clause SELECT sur une/des colonnes, elles permettent de regrouper des données. Si vous utilisez les fonctions de groupement avec une requête ne contenant pas de clause GROUP BY, cela revient à grouper toutes les lignes.
 
+```text
 AVG([DISTINCT] exp)              moyenne
 COUNT({*| DISTINCT] expr})       nombre de lignes
 MAX([DISTINCT] exp)              max
@@ -13,6 +14,7 @@ GROUP_CONCAT(exp)                composition d'un nombre de valeurs, concaténat
 VARIANCE(exp)                    variance
 STDDEV(exp)                       écart type
 
+```
 ## Groupement de lignes
 
 SELECT col1 [,col2, ...], fonction_groupe
