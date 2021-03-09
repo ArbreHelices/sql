@@ -79,15 +79,3 @@ Calculez l'étendue du nombre d'heure de vol par compagnie.
 ## Exercice moyenne et nombre de jours
 
 - Faites la somme du nombre de jours de vols par compagnie dont la somme est supérieur à 30.
-
-## Exercices supplémentaires
-
-Pour chaque question ci-dessous créez la requête :
-
-On aimerait savoir quels sont les types d'avions en commun que la compagnie AUS et FRE1 exploitent.
-
-Le nombre d'heures de vol le plus élevé  pour chaque compagnie.
-
-La date d'embauche la plus récente pour chaque compagnie.
-
-Quels sont les types d'avion que ces deux compagnies exploitent (c'est l'UNION ici) ?
