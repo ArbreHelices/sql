@@ -17,12 +17,14 @@ STDDEV(exp)                       écart type
 ```
 ## Groupement de lignes
 
+```text
 SELECT col1 [,col2, ...], fonction_groupe
 FROM table
 WHERE (condition)
 **GROUP BY clo1 [, col2, ...]**
 HAVING condition
 ORDER BY col1 [ASC | DESC] [, col2 ...]
+```
 
 - La clause WHERE exclue des lignes pour chaque groupement ou permet de rejetr des groupements entiers. Elle s'applique à la totalité de la table.
 
