@@ -111,3 +111,14 @@ HAVING sum(num_jobs) > 30;
 SELECT ROUND( sum(numFlying/24), 1 ) as nbDay, compagny
 FROM pilots GROUP BY compagny
 HAVING nbDay > 30;
+
+
+/*
+Afficher la moyenne des heures de vol pour les compagnies qui sont en France.
+*/
+
+SELECT 
+compagny, AVG(numFlying) 
+FROM pilots 
+WHERE compagny IN ( SELECT comp FROM compagnies WHERE city="France"  ) 
+GROUP BY compagny ;
