@@ -49,3 +49,5 @@ Nous allons maintenant présenter une dernière jointure : la jointure bilatéra
 Sélectionnez les compagnies et leurs pilotes incluant les compagnies n'ayant pas de pilote et les pilotes n'ayant pas de compagnie.
 
 Indication : utilisez la clause UNION pour faire la requête FULL OUTER JOIN. **Notez qu'avec la clause UNION les enregistrements identiques ne seront pas répétés dans les résultats.**
+
+Une autre question possible c'est d'afficher que les compagnies qui n'ont pas de pilote et les pilotes qui n'ont pas compaginie.
