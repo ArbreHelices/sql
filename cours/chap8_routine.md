@@ -73,7 +73,9 @@ SELECT @n;
 
 8. Créez une procédure qui retourne 1 ou 0 si la compagnie a respectivement des pilotes ou aucun pilote.
 
-Voyez les indications en fin de documents
+9. Créez une procédure qui augmente de 10% tous les salaires qui sont pairs.
+
+Voyez les indications en fin de documents pour les deux dernières questions.
 
 ## Exercice algo
 
