@@ -14,9 +14,9 @@ Ecrire et exécuter une requête pour déterminer les pilotes qui n'ont pas de c
 
 ## Exercice Jointures
 
-- Sélectionnez les certificats et les noms des compagnies.
+- Sélectionnez les certificats des pilotes et les noms des compagnies pour lesquelles ils travaillent.
 
-- Sélectionnez les certificats et les noms des compagnies de la compagnie 'Air France' ayant fait plus de 60 heures de vol.
+- Sélectionnez les certificats et les noms des compagnies de la compagnie 'Air France', pour lesquelles les pilotes travaillent et ayant fait plus de 60 heures de vol.
 
 ## Exercice sommes des heures de vol
 
@@ -24,9 +24,9 @@ Faites la somme des heures de vols de tous les pilotes de la compagnie AUSTRA Ai
 
 ## Exercice sommes des heures par compagnie
 
-Faites maintenant la somme des nombres des heures de vol par compagnie.
+Faites maintenant la somme des nombres des heures de vol par compagnie en donnant le nom des compagnies.
 
-*Jointures externes.*
+## Jointures externes (rappel)
 
 Rappelons qu'une jointure externe permet d'extraire des enregistrements qui ne répondent pas aux critères de jointure. Lorsque deux tables sont en jointures externes, une des deux tables est dite dominante (subordonné) par rapport à l'autre.
 
