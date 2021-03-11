@@ -26,7 +26,7 @@ Faites la somme des heures de vols de tous les pilotes de la compagnie AUSTRA Ai
 
 Faites maintenant la somme des nombres des heures de vol par compagnie.
 
-*Jointures externes.*
+## Jointures externes (rappel)
 
 Rappelons qu'une jointure externe permet d'extraire des enregistrements qui ne répondent pas aux critères de jointure. Lorsque deux tables sont en jointures externes, une des deux tables est dite dominante (subordonné) par rapport à l'autre.
 
